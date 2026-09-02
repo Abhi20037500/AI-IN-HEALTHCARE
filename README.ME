@@ -1,1 +1,78 @@
+LAB 1 
+                    DATA SOURCES
+                         |
+        +----------------+----------------+
+        |                |                |
+     Tabular           Text             Image
+     CSV/XLSX          TXT/PDF          PNG/JPEG
+        |                |                |
+     Pandas        PyMuPDF/NLTK       Pillow/OpenCV
+        |                |                |
+        +----------------+----------------+
+                         |
+                    Signal Data
+                    ECG / EEG
+                         |
+                      WFDB
+                         |
+                         v
+                DATA INSPECTION
+                         |
+                         v
+                  PREPROCESSING
+                         |
+        +----------------+----------------+
+        |                |                |
+     Numerical       Text Features    Image/Signal
+     Features         / Embeddings      Features
+        |                |                |
+        +----------------+----------------+
+                         |
+                         v
+                 PATIENT / TIME
+                    ALIGNMENT
+                         |
+                         v
+                 FEATURE FUSION
+                         |
+                         v
+                 ML / DL MODEL
+                         |
+                         v
+                   PREDICTION
 
+
+# lab 2
+Heart_Failure_Details.csv
+          ↓
+      Load Data
+          ↓
+    Inspect Dataset
+          ↓
+   Missing Value Check
+          ↓
+    Missing Heatmap
+          ↓
+   Distribution Plots
+          ↓
+ Correct Inconsistencies
+          ↓
+   Impute Missing Values
+          ↓
+    Remove Outliers
+          ↓
+ Feature Engineering
+    ↙           ↘
+age_group    risk_score
+          ↓
+  Encode Categories
+          ↓
+  Normalize Features
+          ↓
+ Summary Statistics
+          ↓
+ Validate with Plots
+          ↓
+ Final Missing Check
+          ↓
+ Cleaned Dataset
